@@ -45,9 +45,21 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/lib64/librcc.so:system/lib64/librcc.so
 
 PRODUCT_PACKAGES += \
+    embms \
+    ims \
     cneapiclient \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     embmslibrary \
     qcrilhook \
-    rcsimssettings
+    rcsimssettings \
+    QtiTelephonyService \
+    ConnMO \
+    DCMO \
+    DiagMon \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentTGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340 \
+    ModemService \
+    TimeService \
+    wahoo_gfxdrv 
